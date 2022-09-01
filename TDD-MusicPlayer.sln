@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD-MusicPlayer", "src\TDD-MusicPlayer\TDD-MusicPlayer.csproj", "{1E549686-8827-4F91-9B33-576E62869D9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD-MusicPlayer.UnitTest", "src\TDD-MusicPlayer.UnitTest\TDD-MusicPlayer.UnitTest.csproj", "{D6A071D8-E126-482A-A80C-C09FFD8E9B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E549686-8827-4F91-9B33-576E62869D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E549686-8827-4F91-9B33-576E62869D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E549686-8827-4F91-9B33-576E62869D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E549686-8827-4F91-9B33-576E62869D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A071D8-E126-482A-A80C-C09FFD8E9B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A071D8-E126-482A-A80C-C09FFD8E9B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A071D8-E126-482A-A80C-C09FFD8E9B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A071D8-E126-482A-A80C-C09FFD8E9B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E38F32D-C67B-4C23-BF82-3CDAAD4F36D2}
+	EndGlobalSection
+EndGlobal
