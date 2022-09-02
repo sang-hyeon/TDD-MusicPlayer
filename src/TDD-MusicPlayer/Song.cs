@@ -1,6 +1,6 @@
 ﻿namespace TDD_MusicPlayer
 {
-    public class Song
+    public record Song
     {
         public string Title { get; }
         public string Artist { get; }
