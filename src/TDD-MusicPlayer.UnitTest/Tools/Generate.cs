@@ -28,5 +28,11 @@ namespace TDD_MusicPlayer.UnitTest.Tools
         {
             return Songs(length).ToImmutableArray();
         }
+
+        public static CompactDisk CD(int length = 3)
+        {
+            IEnumerable<Song> songs = Songs(length);
+            return CompactDisk.Write(songs);
+        }
     }
 }
